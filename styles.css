@@ -114,6 +114,32 @@ button{
     border-radius: 15px;
     border:solid 3px #3882f6;
 }
+
+.qoute{
+    width: 100%;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.qoute div{
+    display: flex;
+    flex-direction: column;
+    padding:150px
+}
+
+.qoute p{
+    align-self: flex-start;
+    font-size: 36px;
+    font-style: italic;
+    font-weight:lighter;
+}
+
+.qoute strong{
+    align-self: flex-end;
+}
+
 .blue{
     background: #1f2937;
 }
