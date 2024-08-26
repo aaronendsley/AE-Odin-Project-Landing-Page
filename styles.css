@@ -52,6 +52,7 @@ button{
     border-radius: 5px;
     padding: 10px 20px;
     color: #f9faf8;
+    cursor: pointer;
 }
 .hero{
     display:flex;
@@ -59,6 +60,7 @@ button{
     margin: 30px auto;
     justify-content: space-evenly;
     padding: 25px;
+    gap: 20px;
 }
 
 .hero .details{
@@ -67,16 +69,18 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    padding: 10px;
 }
 .hero-image{
-    flex:2;
+    flex:1;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 .hero-image img{
-    border-radius: 10px;;
+    border-radius: 10px;
+    width: 100%;
 }
 .hero h2{
     font-size: 48px;
@@ -88,6 +92,7 @@ button{
 .hero p{
     color: #E5E7EB;
     font-size: 18px;
+    padding-right: 30px;
 }
 
 
@@ -110,7 +115,7 @@ button{
     text-align: center;
 }
 .fun-facts img{
-    width:100%;
+    width:200px;
     border-radius: 15px;
     border:solid 3px #3882f6;
 }
